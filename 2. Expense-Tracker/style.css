@@ -67,3 +67,27 @@ body {
   border: 0;
   cursor: pointer;
 }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 20%;
+  }
+
+  .tracker-header {
+    margin: 6vmin 0;
+    font-size: 2vmax;
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    width: 15%;
+  }
+
+  .tracker-header {
+    margin: 6vmin 0;
+    font-size: 1.5vmax;
+    font-weight: 700;
+  }
+}
